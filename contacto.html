@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contacto</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <div class="navbar"> 
+        <a href="principal.html">Inicio</a> 
+        <a href="galeria.html">Galería</a> 
+        <a href="promociones.html">Promociones</a> 
+        <a href="sucursales.html">Sucursales</a> 
+        <a href="contacto.html">Contacto</a> </div>
+
+        <div class="form-container">
+            <h2>Contacto</h2>
+            <form action="mailto:empresa@example.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+    
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+</body>
+</html>
